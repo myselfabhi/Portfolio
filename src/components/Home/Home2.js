@@ -41,7 +41,7 @@ function Home2() {
                with 
               <i>
                 <b className="purple">
-                  Modern Javascript Library and Framework
+                  Modern Javascript Library and its Framework
                 </b>
               </i>
               <i>
