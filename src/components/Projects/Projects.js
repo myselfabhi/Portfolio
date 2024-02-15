@@ -13,7 +13,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Container>
+      {/* <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
@@ -86,10 +86,10 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
-        </Row>
+          </Col> */}
+        {/* </Row> */}
       </Container>
-    </Container>
+    // </Container>
   );
 }
 
