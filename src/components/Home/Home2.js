@@ -37,15 +37,13 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-               with {/* <b className="purple">Node.js</b> and */}
+              I also apply my passion for developing products
+               with 
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Library and Framework
                 </b>
               </i>
-              &nbsp; like
               <i>
                 <b className="purple"> React.js</b>
               </i>
