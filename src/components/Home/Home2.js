@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
@@ -18,38 +19,40 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              Crafting captivating digital experiences through code - thats the power of a frontend web developer. 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> FrontEnd Development. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest are building new &nbsp;
-              <i>
-                <b className="purple"> Products </b>
-                using
-              
-                <b className="purple">
-                  Web Technologies.
-                </b>
-              </i>
-              <br />
-              <br />
-              I also apply my passion for developing products
-               with 
-              <i>
-                <b className="purple">
-                  Modern Javascript Library and its Framework
-                </b>
-              </i>
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
-            </p>
-          </Col>
+            <Card className="quote-card-view">
+             <Card.Body>
+               <blockquote className="blockquote mb-0">
+                 <p style={{ textAlign: "justify" }}>
+                   Hi Everyone, I am <span className="purple">Abhinav Verma </span>
+                   from <span className="purple"> Delhi, India.</span>
+                   <br />
+                   I am currently Final year Btech (CSE) student in MAIT.
+                   <br />
+                   I have completed my internship as a FrontEnd Developer at <a href="https://www.npstx.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}><span className="purple">Network People Service Technology.</span></a>
+                   <br />
+                   <br />
+                    Apart from coding, some other activities that I love to do!
+                 </p>
+                 <ul>
+                  <li className="about-activity">
+                   <ImPointRight /> Reading Self Growth Books
+                  </li>
+                  <li className="about-activity">
+                   <ImPointRight /> Knowing about Tech updates
+                  </li>
+                  <li className="about-activity">
+                   <ImPointRight /> Trading 
+                  </li>
+                </ul>
+
+                  <p style={{ color: "rgb(155 126 172)" }}>
+                    "Turning Code into Creativity👨‍💻!"{" "}
+                  </p>
+                    <footer className="blockquote-footer">Abhinav</footer>
+                    </blockquote>
+                </Card.Body>
+                </Card>
+                </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

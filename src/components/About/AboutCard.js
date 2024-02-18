@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently Final year Btech (CSE) student in MAIT.
             <br />
-            I have completed my internship as a FrontEnd Developer at NPST. 
+            I have completed my internship as a FrontEnd Developer at <a href="https://www.npstx.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}><span className="purple">Network People Service Technology.</span></a>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
