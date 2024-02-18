@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import abhinav from "../Assets/favicon.png";
+import abhinav from "../Assets/favicon.ico";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={abhinav} className="img-fluid logo" alt="brand" />
+          <img src={abhinav} className="" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -99,6 +99,7 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item> */}
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
