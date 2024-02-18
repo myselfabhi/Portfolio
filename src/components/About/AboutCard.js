@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Reading Self Groeth Books
+              <ImPointRight /> Reading Self Growth Books
             </li>
             <li className="about-activity">
               <ImPointRight /> Knowing about Tech updates
